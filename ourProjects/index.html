@@ -1,0 +1,43 @@
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+
+    <title>Abel & Baker Studios</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+      <div>
+        <div class="title-screen">
+          <div>
+            <h2>
+              <span class="abel-name">Abel & Baker Studios</span>
+          </h2> 
+          </div>
+        </div>
+        <div class="projects-holder sticky">
+          <div class="project momochi selected super-selected" id="pro-1" onmouseover="selectProject(this.id)">
+            <img src="https://images.unsplash.com/photo-1551415923-a2297c7fda79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80" alt=""/>
+          </div>
+          
+          <div class="project flymmics not-selected" id="pro-2" onmouseover="selectProject(this.id)"> 
+            <img src='https://images.unsplash.com/photo-1551432434-d5f2bdc62ce9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1347&q=80' alt=""/>
+          </div>
+          
+          <div class="project whoops not-selected" id="pro-3" onmouseover="selectProject(this.id)">
+            <img src='https://images.unsplash.com/photo-1551418170-644d30f341f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80' alt=""/>
+          </div>
+          
+          <div class="project dead-pet selected" id="pro-4" onmouseover="selectProject(this.id)">
+            <img src='https://images.unsplash.com/photo-1551336801-724517de7994?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1194&q=80' alt=""/>
+          </div>
+        </div>
+      </div>      
+      <script src="js/index.js"></script>
+    </body>
+</html>

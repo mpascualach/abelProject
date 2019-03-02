@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    font-family: Arial;
+  }
+  
+  .title-screen {
+    height: 70px;
+    position: fixed;
+    box-shadow: 0px 2px 3px 3px #ccc;
+    z-index: 1;
+    margin-top: 0;
+    background: rgba(134, 123, 131, 0.8);
+    width: 100%;
+    -webkit-text-stroke-width: 0.2px;
+     -webkit-text-stroke-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+  }
+  
+  .abel-name {
+    color: rgb(254, 0, 71);
+    font-size: 50px;
+    z-index: 1;
+  }
+  
+  .projects-holder {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project {
+    height: 550px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .project img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .selected {
+    width: 60%;
+  }
+  
+  .not-selected {
+    width: 40%;
+  }
+  
+  .super-selected {
+    filter: unset;
+  }

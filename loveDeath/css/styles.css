@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#masthead {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+}
+
+#masthead img {
+    position: relative;
+    height: 100%;
+}
+
+.playbutton {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    cursor: pointer;
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    transition: all .9s ease;
+    letter-spacing: 0.03em;
+    font-size: 3em;
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.playbutton.hidden {
+    opacity: 0;
+}
+
+main {
+    height: 65%;
+}
+
+.table {
+    margin-top: 20%;
+}
+
+.playbutton .icon:after {
+    background: url(image.png) center center no-repeat;
+    background-size: 1.2em;
+    content: "";
+    width: 1.2em;
+    height: 1.2em;
+    position: relative;
+    display: inline-block;
+    top: .2em;
+    margin-left: 2px;
+    webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+  
+  
