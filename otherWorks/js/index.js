@@ -1,3 +1,7 @@
+let selectedProject;
+
 function selectProject(id){
+    if (selectedProject) $("#"+id).removeClass("selected");
     $("#"+id).addClass("selected");
+    selectedProject = id.substring(4,id.length);
 }
