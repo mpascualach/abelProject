@@ -37,7 +37,7 @@ main {
 }
 
 .project {
-    height: 40%;
+    height: 37%;
     width: 33%;
     margin-bottom: 5px;
     background-size: cover;
@@ -48,8 +48,11 @@ main {
 .project img {
     height: 100%;
     width: 100%;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 }
 
-.super-selected {
-    filter: unset;
+.selected img {
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
 }
