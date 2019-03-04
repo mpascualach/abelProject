@@ -4,21 +4,6 @@
     overflow: scroll;
     font-family: Arial;
   }
-  
-  .title-screen {
-    height: 70px;
-    position: fixed;
-    box-shadow: 0px 2px 3px 3px #ccc;
-    z-index: 1;
-    margin-top: 0;
-    background: rgba(134, 123, 131, 0.8);
-    width: 100%;
-    -webkit-text-stroke-width: 0.2px;
-     -webkit-text-stroke-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
 
   #masthead {
     width: 100%;
@@ -28,11 +13,16 @@
     align-items: center;
     padding-bottom: 10px;
     margin-bottom: 1%;
+    box-shadow: 0 4px 2px -2px gray;
   }
 
   #masthead img {
       position: relative;
       height: 100%;
+  }
+
+  .row {
+    display: flex;
   }
 
   .tabs {
