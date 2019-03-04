@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: Arial;
+}
+
+#masthead {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 1%;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+#masthead img {
+    position: relative;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+}
+
+.tabs {
+    display: flex;
+}
+
+.abel-tab {
+    margin-right: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+  
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1498409785966-ab341407de6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1360&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.about-block {
+    background-color: white;
+    opacity: 0.9;
+    max-width: 33%;
+    max-height: 40%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10%;
+}
+
+.abel-tab {
+    margin-right: 40px;
+    text-align: center;
+    font-size: 20px;
+}
