@@ -26,6 +26,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 1%;
   }
 
   #masthead img {
@@ -34,27 +36,18 @@
   }
 
   .tabs {
-      display: flex;
+    display: flex;
   }
 
-  main {
-      margin-top: 2%;
-  }
-  
-  .sticky {
-    position: fixed;
-    top: 0;
+  .abel-tab {
+    margin-right: 40px;
+    text-align: center;
   }
   
   .abel-name {
     color: rgb(254, 0, 71);
     font-size: 50px;
     z-index: 1;
-  }
-
-  main {
-    display: flex;
-    justify-content: center;
   }
   
   .projects-holder {
@@ -67,10 +60,11 @@
   
   .project {
     height: 550px;
-    width: 50%;
+    width: 40%;
     background-size: cover;
     background-position: center;
     position: relative;
+    flex-shrink: 0;
   }
   
   .project img {
@@ -85,18 +79,26 @@
   }
 
   .super-selected {
-    width: 60%!important;
+    width: 60%;
   }
 
   .super-selected img {
       -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
       filter: grayscale(0%);
   }
-  
-  .not-selected {
-    width: 40%;
+
+  #pro-1 img {
+    border-radius: 5px 0px 0px 0px;
   }
-  
-  .super-selected {
-    filter: unset;
+
+  #pro-2 img {
+    border-radius: 0px 5px 0px 0px;
+  }
+
+  #pro-3 img {
+    border-radius: 0px 0px 5px 0px;
+  }
+
+  #pro-4 img {
+    border-radius: 0px 0px 5px 0px;
   }

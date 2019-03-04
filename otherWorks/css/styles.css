@@ -9,6 +9,8 @@ width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 #masthead img {
@@ -18,10 +20,6 @@ width: 100%;
 
 .tabs {
     display: flex;
-}
-
-main {
-    margin-top: 2%;
 }
 
 .abel-tab {
