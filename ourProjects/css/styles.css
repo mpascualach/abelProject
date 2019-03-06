@@ -27,6 +27,7 @@
 
   .tabs {
     display: flex;
+    font-size: 18px;
   }
 
   .abel-tab {
@@ -49,12 +50,13 @@
   }
   
   .project {
-    height: 550px;
-    width: 40%;
+    height: 100%;
+    width: 60%;
     background-size: cover;
     background-position: center;
     position: relative;
     flex-shrink: 0;
+    position: absolute;
   }
   
   .project img {
@@ -64,17 +66,27 @@
     filter: grayscale(100%);
   }
 
-  .selected {
-    width: 60%;
+  .row {
+    position: relative;
+    height: 480px;
+    width: 100%;
   }
 
-  .super-selected {
-    width: 60%;
+  .selected {
+    z-index: 1;
   }
 
   .super-selected img {
       -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
       filter: grayscale(0%);
+  }
+
+  #pro-1, #pro-3 {
+    left: 0
+  }
+
+  #pro-2, #pro-4 {
+    right: 0
   }
 
   #pro-1 img {

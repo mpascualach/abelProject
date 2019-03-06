@@ -36,7 +36,13 @@ main {
     text-align: center;
 }
 
-.carousel-item img {
+/* .carousel-item img {
+    width: 100%;
+} */
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
     width: 100%;
 }
+
+
 
